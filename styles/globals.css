@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-primary: #10B981;
+  --brand-secondary: #047857;
+  --brand-text: #FFFFFF;
+  --brand-bg: #0B1220;
+}
+
+body {
+  background: var(--brand-bg);
+  color: #E5E7EB;
+}
+
+.nav-link { @apply text-sm hover:underline; } 
+.card { @apply bg-white/5 border border-white/10 rounded-2xl p-5; }
+.btn-primary { @apply px-4 py-2 rounded-xl font-medium bg-brand-primary text-white; }

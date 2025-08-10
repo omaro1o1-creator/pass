@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "env": {
+    "STRIPE_SECRET_KEY": "@stripe_secret_key",
+    "SUCCESS_URL": "@success_url",
+    "CANCEL_URL": "@cancel_url",
+    "CONNECT_RETURN_URL": "@connect_return_url",
+    "CONNECT_REFRESH_URL": "@connect_refresh_url",
+    "NEXT_PUBLIC_DAILY_ROOM_URL": "@next_public_daily_room_url"
+  }
+}
